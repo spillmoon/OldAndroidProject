@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="com.finalproject.userinterface.CreateRoom"
+    android:gravity="center">
+    <!-- roomname -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="방 이름"
+            android:textSize="15sp"
+            android:background="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/createRoomName"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp" />
+
+        <Button
+            android:id="@+id/createRoomNameChk"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="중복확인"
+            android:background="@drawable/listbtn"/>
+    </LinearLayout>
+    <!-- 관심분야 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:id="@+id/sppin">
+
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="관심분야"
+            android:textSize="15dp"
+            android:background="#FFFFFF"/>
+
+
+        <Spinner
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/createRoomCategory"
+            android:prompt="@string/inter"
+            />
+
+    </LinearLayout>
+    <!-- keyword -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="키워드"
+            android:textSize="15dp"
+            android:background="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/createRoomKeyword1"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp" />
+        <EditText
+            android:id="@+id/createRoomKeyword2"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp" />
+        <EditText
+            android:id="@+id/createRoomKeyword3"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+    <!-- 최대인원-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="최대인원"
+            android:textSize="15sp"
+            android:background="#FFFFFF"/>
+
+        <Spinner
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/createRoomMaxMember"
+            android:prompt="@string/people"
+            />
+
+    </LinearLayout>
+    <!-- area for activity -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="활동지역"
+            android:textSize="15dp"
+            android:background="#FFFFFF"/>
+
+        <Spinner
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/createRoomLocateSi"
+            android:prompt="@string/si"/>
+        <Spinner
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/createRoomLocateGu"
+            android:prompt="@string/gu"/>
+    </LinearLayout>
+    <!-- information -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="정보"
+            android:textSize="15dp"
+            android:background="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/createRoomInformation"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+    <!-- yes or no -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/createRoomOk"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="등록"
+            android:background="@drawable/listbtn"/>
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:id="@+id/createRoomCancel"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="취소"
+            android:background="@drawable/listbtn"/>
+    </LinearLayout>
+</LinearLayout>

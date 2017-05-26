@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.finalproject.userinterface.AppMain"
+    android:background="#FFFFFF">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/loginlo"
+        android:paddingBottom="10dp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="방 찾기"
+        android:id="@+id/appMainSearchRoom"
+        android:background="@drawable/listbtn"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="내 방"
+        android:id="@+id/appMainMyRoom"
+        android:background="@drawable/listbtn"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="방 등록"
+        android:id="@+id/appMainRegistRoom"
+        android:background="@drawable/listbtn"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="설정"
+        android:id="@+id/appMainConfigure"
+        android:background="@drawable/listbtn"/>
+</LinearLayout>

@@ -1,0 +1,119 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.changeui.userinterface.userinterface.ScheduleAdd"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#FFFFFF">
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:text="    제목 : " />
+
+            <EditText
+                android:id="@+id/ModificationScheduleName"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="80dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:text="    장소 : " />
+            <EditText
+                android:id="@+id/ModificationSchedulePlace"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="80dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:text="    시작 : " />
+
+            <TextView
+                android:id="@+id/ModificationStartDate"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="80dp"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:text="    시간 : " />
+
+            <TextView
+                android:id="@+id/ModificationTime"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:clickable="false"
+                android:layout_marginRight="80dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:text="    설명 : " />
+
+            <EditText
+                android:id="@+id/ModificationScheduleExplain"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+        <Button
+            android:id="@+id/ModificationSendScheduleBtn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="일정 수정"
+            android:background="@drawable/listbtn"/>
+        <Button
+            android:id="@+id/ModificationSendScheduleBtnCan"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="취소"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/listbtn"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

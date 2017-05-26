@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="capston.finalproject" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/loginlo"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name=".uiothers.FLogin"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".uiothers.FSign"
+            android:label="Sign" >
+        </activity>
+        <activity
+            android:name=".uiothers.FAppMain"
+            android:label="AppMain" >
+        </activity>
+        <activity
+            android:name=".uiothers.FCreateRoom"
+            android:label="CreateRoom" >
+        </activity>
+        <activity
+            android:name=".uiothers.FRoomMain"
+            android:label="RoomMain" >
+        </activity>
+        <activity
+            android:name=".uimyroom.MyRoom"
+            android:label="MyRoom" >
+        </activity>
+        <activity
+            android:name=".uiroomlist.RoomList"
+            android:label="RoomList" >
+        </activity>
+        <activity
+            android:name=".uiroomlist.RoomApply"
+            android:label="RoomApply" >
+        </activity>
+        <activity
+            android:name=".uiroomlist.RoomApplyCancel"
+            android:label="RoomApplyCancel" >
+        </activity>
+        <activity
+            android:name=".uiboard.Board"
+            android:label="Board" >
+        </activity>
+        <activity
+            android:name=".uiboard.BoardContentShow"
+            android:label="BoardShowContent" >
+        </activity>
+        <activity
+            android:name=".uiboard.BoardContentUpload"
+            android:label="ContentUpload" >
+        </activity>
+        <activity
+            android:name=".uiboard.BoardContentEdit"
+            android:label="EditContent" >
+        </activity>
+        <activity
+            android:name=".uiboard.BoardFileBrowser"
+            android:label="FileBrowser" >
+        </activity>
+        <activity
+            android:name=".uiboard.BoardFolderConf"
+            android:label="FolderConf" >
+        </activity>
+        <activity
+            android:name=".uiboard.BoardReply"
+            android:label="Reply" >
+        </activity>
+        <activity
+            android:name=".uiboard.BoardReplyEditDialog"
+            android:label="ReplyEditDialog"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".uiboard.BoardReReply"
+            android:label="ReReply" >
+        </activity>
+        <activity
+            android:name=".uiboard.BoardMaster"
+            android:label="RoomConfigMaster" >
+        </activity>
+        <activity
+            android:name=".uiboard.BoardUserAcceptPermit"
+            android:label="RoomConfigUser" >
+        </activity>
+        <activity
+            android:name=".uiappconfig.ConfigApp"
+            android:label="ConfigApp" >
+        </activity>
+        <activity
+            android:name=".uiappconfig.ConfigCategory"
+            android:label="ConfigCategory" >
+        </activity>
+        <activity
+            android:name=".uiappconfig.ConfigMemChk"
+            android:label="ConfigMemChk"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".uiappconfig.ConfigMemInfo"
+            android:label="ConfigMemInfo" >
+        </activity>
+        <activity
+            android:name=".uicalander.RoomCalendar"
+            android:label="RoomCalendar" >
+        </activity>
+        <activity
+            android:name=".uicalander.ScheduleAdd"
+            android:label="ScheduleAdd" >
+        </activity>
+        <activity
+            android:name=".uicalander.ScheduleList"
+            android:label="ScheduleList" >
+        </activity>
+        <activity
+            android:name=".uicalander.ScheduleModification"
+            android:label="ScheduleModification" >
+        </activity>
+        <activity
+            android:name=".uigallary.GalleryMain"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".uigallary.GalleryManagement"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".uigallary.ImageAdder"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".uigallary.ImageFullScreen"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".uigallary.RequestDetail"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".uigallary.SelectedFolderGridView"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".uigallary.GalleryRequestedDetail"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".uiappconfig.ConfigAppOutChk"
+            android:label="@string/title_activity_config_app_out_chk"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+    </application>
+
+</manifest>

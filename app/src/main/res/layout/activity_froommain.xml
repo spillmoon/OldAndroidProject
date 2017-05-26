@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.moon.userinterface.AppMain"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/loginlo" />
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="설정"
+        android:id="@+id/roomMainconf"
+        android:background="@drawable/listbtn"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="게시판"
+        android:id="@+id/roomMainBoard"
+        android:background="@drawable/listbtn"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="갤러리"
+        android:id="@+id/roomMainGalary"
+        android:background="@drawable/listbtn"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="캘린더"
+        android:id="@+id/roomMainCalander"
+        android:background="@drawable/listbtn"/>
+</LinearLayout>

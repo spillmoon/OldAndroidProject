@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="capston.finalproject.uiboard.BoardReply">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/attachtoreply"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:background="@drawable/listbtn"
+            android:text="첨부"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/replycontent"
+            android:layout_weight="5"/>
+        <Button
+            android:id="@+id/uploadreply"
+            android:layout_width="10dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="등록"
+            android:background="@drawable/listbtn"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/attachreplyfilename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:id="@+id/replyList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

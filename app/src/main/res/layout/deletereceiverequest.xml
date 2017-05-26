@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.changeui.userinterface.userinterface.GalleryFolderManagement">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/listbtn">
+            <TextView
+                android:text="사진 이름"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="폴더이름"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:text="요청ID"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"/>
+        </LinearLayout>
+        <ListView
+            android:id="@+id/RequestList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+    </LinearLayout>
+</FrameLayout>

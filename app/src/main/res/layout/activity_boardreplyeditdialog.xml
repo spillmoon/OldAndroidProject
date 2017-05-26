@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <Button
+            android:id="@+id/attachtoreplyedit"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:text="첨부"
+            android:background="@drawable/listbtn"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/replycontentedit"
+            android:layout_weight="5"/>
+        <Button
+            android:id="@+id/resetreplyattach"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="파일취소"
+            android:background="@drawable/listbtn"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/attachreplyfilenameedit"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/yesreplyedit"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="확인"
+            android:background="@drawable/listbtn"/>
+        <Button
+            android:layout_marginLeft="5dp"
+            android:id="@+id/noreplyedit"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="취소"
+            android:background="@drawable/listbtn"/>
+    </LinearLayout>
+</LinearLayout>

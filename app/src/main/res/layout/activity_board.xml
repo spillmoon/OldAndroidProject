@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="capston.finalproject.uiboard.Board">
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/boardsearchkey"
+            android:prompt="@string/search"
+            android:layout_weight="2.5"
+            android:popupBackground="#14C1C7"
+            android:textSize="20dp"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/boardsearchinfo"
+            android:layout_weight="5"/>
+        <ImageButton
+
+            android:id="@+id/boardsearchbtn"
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@drawable/rg"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/boardList"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/boardconfig"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="게시판 설정"
+            android:background="@drawable/listbtn"
+            android:layout_alignParentRight="true" />
+        <Button
+            android:id="@+id/boarduploadcontentbtn"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="글 등록"
+            android:background="@drawable/listbtn"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</LinearLayout>

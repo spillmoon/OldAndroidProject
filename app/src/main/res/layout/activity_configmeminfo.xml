@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.moon.userinterface.Sign"
+    android:background="#FFFFFF">
+    <!-- name -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/name"
+            android:textSize="25sp"
+            android:background="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/changeName"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:inputType="text"
+            android:maxLength="5"/>
+    </LinearLayout>
+    <!-- id -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/id"
+            android:textSize="25sp"
+            android:background="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/changeID"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:inputType="text"
+            android:maxLength="10"/>
+        
+    </LinearLayout>
+    <!-- pw -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/pw"
+            android:textSize="25sp"
+            android:background="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/changePW"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:inputType="textPassword"
+            android:maxLength="10"/>
+    </LinearLayout>
+    <!-- pw check -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/pwchk"
+            android:textSize="25sp"
+            android:background="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/changepwChk"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:inputType="textPassword"
+            android:maxLength="10"/>
+
+    </LinearLayout>
+    <!-- email -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/email"
+            android:textSize="25sp"
+            android:background="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/changeEmail"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:inputType="textEmailAddress"/>
+    </LinearLayout>
+    <!-- phone -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/phome"
+            android:textSize="25sp"
+            android:background="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/changePhone"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:inputType="phone"
+            android:maxLength="15"/>
+    </LinearLayout>
+    <!-- alarm -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/alarm"
+            android:textSize="25sp"
+            android:background="#FFFFFF"/>
+
+        <RadioGroup
+            android:id="@+id/changealrg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="수신" />
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="거절" />
+        </RadioGroup>
+    </LinearLayout>
+    <!-- question -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/question"
+            android:textSize="25sp"
+            android:background="#FFFFFF"/>
+
+        <Spinner
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/changeQuestion"
+            android:prompt="@string/question"/>
+    </LinearLayout>
+    <!-- answer -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/answer"
+            android:textSize="25sp"
+            android:background="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/changeAnswer"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:inputType="text"/>
+    </LinearLayout>
+    <!-- yes or no -->
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#FFFFFF">
+
+        <Button
+            android:id="@+id/changeOkBtn"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:background="@drawable/listbtn"
+            android:text="수정" />
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:id="@+id/byebye"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:background="@drawable/listbtn"
+            android:text="탈퇴" />
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:id="@+id/changeCancel"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:background="@drawable/listbtn"
+            android:text="취소" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:background="@drawable/listitem">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="4">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/myjoinCategory"
+                android:layout_width="100dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:id="@+id/myjoinName"
+                android:layout_width="130dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:id="@+id/myjoinMember"
+                android:layout_width="70dp"
+                android:layout_height="40dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/myjoinLocate"
+                android:layout_width="120dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:id="@+id/myjoinKeyword"
+                android:layout_width="180dp"
+                android:layout_height="40dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="2dp">
+        <Button
+            android:id="@+id/roomOutBtn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="탈퇴"
+            android:background="@drawable/listbtn"/>
+    </LinearLayout>
+</LinearLayout>

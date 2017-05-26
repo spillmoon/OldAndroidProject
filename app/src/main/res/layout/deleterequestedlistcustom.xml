@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:orientation="horizontal"
+        android:background="@drawable/listitem">
+
+        <TextView
+            android:id="@+id/refolderlistName"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/reimageName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center" />
+
+    </LinearLayout>
+</LinearLayout>

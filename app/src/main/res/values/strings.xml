@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">MemoryShare</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 방 리스트 -->
+    <string name="myroom_create">생성</string>
+    <string name="myroom_join">참여</string>
+    <string name="roomlist_interest">관심</string>
+    <string name="roomlist_all">전체</string>
+    <string name="roomlist_applying">신청</string>
+    <string name="roomlist_search">검색</string>
+
+    <!-- 회원가입 -->
+    <string name="name">이름</string>
+    <string name="id">ID</string>
+    <string name="pw">PW</string>
+    <string name="pwchk">Check</string>
+    <string name="email">E-mail</string>
+    <string name="phome">Phone</string>
+    <string name="alarm">알림</string>
+    <string name="question">질문</string>
+    <string name="answer">답</string>
+    <string name="sign">가입</string>
+    <string name="cancel">취소</string>
+    <string name="category">분야</string>
+    <string name="inter">ints</string>
+    <string name="people">peo</string>
+    <string name="si">si</string>
+    <string name="gu">gu</string>
+    <string name="search">선택</string>
+
+    <string-array name="setting">
+        <item>관심분야변경</item>
+        <item>개인정보수정</item>
+        <item>로그아웃</item>
+    </string-array>
+    <string-array name="ints">
+        <item>스포츠</item>
+        <item>학습</item>
+        <item>여행</item>
+        <item>영화</item>
+        <item>음악</item>
+        <item>육아</item>
+    </string-array>
+    <string-array name="peo">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+    </string-array>
+    <string-array name="si">
+        <item>서울특별시</item>
+    </string-array>
+    <string-array name="gu">
+        <item>광진구</item>
+        <item>동대문구</item>
+        <item>중랑구</item>
+        <item>용산구</item>
+    </string-array>
+    <string-array name="questions">
+        <item>당신의 이름은?</item>
+        <item>아버지 성함은?</item>
+        <item>어머니 성함은?</item>
+        <item>신발 사이즈는?</item>
+    </string-array>
+    <string-array name="searchroom">
+        <item>키워드</item>
+        <item>방이름</item>
+    </string-array>
+    <string-array name="searchboard">
+        <item>글 제목</item>
+        <item>작성자</item>
+    </string-array>
+
+    <string name="title_activity_room_config_user">RoomConfigUser</string>
+    <string name="title_activity_room_config_master">RoomConfigMaster</string>
+
+    <string name="title_section1">방정보 수정</string>
+    <string name="title_section2">가입신청목록</string>
+    <string name="title_activity_board">Board</string>
+    <string name="title_activity_board_show_content">BoardShowContent</string>
+    <string name="title_activity_folder_conf">FolderConf</string>
+    <string name="title_activity_content_upload">ContentUpload</string>
+    <string name="title_activity_edit_content">EditContent</string>
+    <string name="title_activity_reply">Reply</string>
+    <string name="title_activity_reply_edit_dialog">ReplyEditDialog</string>
+    <string name="title_activity_app_config">AppConfig</string>
+    <string name="title_activity_my_room_chk_dialog1">MyRoomChkDialog1</string>
+    <string name="title_activity_my_room_chk_dialog2">MyRoomChkDialog2</string>
+    <string name="title_activity_config_app_out_chk">ConfigAppOutChk</string>
+</resources>

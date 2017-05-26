@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="capston.finalproject.uiothers.AppConfig">
+
+    <Button
+        android:id="@+id/appconfigmembercheck"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:text="개인정보수정"
+        android:background="@drawable/listbtn"/>
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/appconfigchangecategory"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:text="관심분야변경"
+        android:background="@drawable/listbtn"/>
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/appconfiglogout"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:text="로그아웃"
+        android:background="@drawable/listbtn"/>
+
+</LinearLayout>

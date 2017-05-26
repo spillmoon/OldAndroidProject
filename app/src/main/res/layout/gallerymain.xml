@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="#FFFFFF">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/gallerysetting"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:textSize="30dp"
+                android:background="@drawable/set"/>
+
+        </FrameLayout>
+
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="fill_parent"
+            android:layout_height="380dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="1px"
+            android:layout_marginTop="2px"
+            android:numColumns="3" />
+
+        <LinearLayout
+            android:background="#FFFFFF"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/addimagebut"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:text="사진추가"
+                android:background="@drawable/listbtn"/>
+
+            <Button
+                android:layout_marginLeft="5dp"
+                android:id="@+id/addfolder"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:text="폴더추가"
+                android:background="@drawable/listbtn"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

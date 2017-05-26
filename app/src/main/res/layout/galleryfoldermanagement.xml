@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.changeui.userinterface.userinterface.GalleryFolderManagement">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+        <LinearLayout
+
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/listbtn">
+        <TextView
+            android:text="폴더 이름"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="생성자"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="사진갯수"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"/>
+        </LinearLayout>
+    <ListView
+        android:id="@+id/folderList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+    </ListView>
+    </LinearLayout>
+</FrameLayout>
